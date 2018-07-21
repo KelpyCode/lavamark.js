@@ -1,0 +1,25 @@
+{
+  "name": "lavamark",
+  "version": "1.0.0",
+  "description": "Watermark your text invisibly easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XaoticLabs/lavamark.js.git"
+  },
+  "keywords": [
+    "watermark",
+    "lava",
+    "invisible",
+    "string"
+  ],
+  "author": "Xaotic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XaoticLabs/lavamark.js/issues"
+  },
+  "homepage": "https://github.com/XaoticLabs/lavamark.js#readme"
+}
