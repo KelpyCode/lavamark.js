@@ -1,0 +1,1 @@
+window.lavamark = require("./index");

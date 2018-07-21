@@ -2,9 +2,11 @@
   "name": "lavamark",
   "version": "1.0.0",
   "description": "Watermark your text invisibly easily",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build-node & npm run build-browser",
+    "build-node": "npx webpack --config webpack.config.js",
+    "build-browser": "npx webpack --config webpack.browser.config.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +19,13 @@
     "string"
   ],
   "author": "Xaotic",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/XaoticLabs/lavamark.js/issues"
   },
-  "homepage": "https://github.com/XaoticLabs/lavamark.js#readme"
+  "homepage": "https://github.com/XaoticLabs/lavamark.js#readme",
+  "devDependencies": {
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0"
+  }
 }
