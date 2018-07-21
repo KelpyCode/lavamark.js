@@ -1,6 +1,6 @@
 {
   "name": "lavamark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Watermark your text invisibly easily",
   "main": "src/index.js",
   "scripts": {
